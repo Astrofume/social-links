@@ -21,7 +21,7 @@
   <style>
     body {
         min-height: 100vh;
-        background: linear-gradient(135deg, #78866B, #EFE8D8);
+        background: linear-gradient(135deg, #4B5E3F, #D5C9B1); 
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -30,11 +30,11 @@
     }
 
     .card-link {
-        background: rgba(239, 232, 216, 0.85); /* Warm beige */
+        background: rgba(213, 201, 177, 0.9); /* Darker beige */
         border: 1px solid #ccc;
         border-radius: 1rem;
         padding: 1.5rem;
-        color: #2E2E2E; /* Charcoal */
+        color: #1E1E1E; /* Darker charcoal */
         backdrop-filter: blur(6px);
         box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
         text-align: center;
@@ -45,20 +45,20 @@
 
     .card-link:hover {
         transform: translateY(-6px);
-        background: #A6B2A1; /* Light olive on hover */
-        color: #2E2E2E;
+        background: #69775E; 
+        color: #1E1E1E;
     }
 
     .card-link i {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-      display: block;
-      transition: transform 0.3s ease;
-      color: #2E2E2E;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        display: block;
+        transition: transform 0.3s ease;
+        color: #1E1E1E;
     }
 
     .card-link:hover i {
-      transform: scale(1.15);
+        transform: scale(1.15);
     }
 
     .card-link p {
@@ -68,19 +68,19 @@
     }
 
     .logo {
-      width: 160px;
+      width: 200px;
       height: auto;
     }
 
     @media (max-width: 768px) {
       .logo {
-        width: 120px;
+        width: 160px;
       }
     }
 
     @media (max-width: 480px) {
       .logo {
-        width: 100px;
+        width: 140px;
       }
     }
   </style>
@@ -117,7 +117,7 @@
       </div>
 
       <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-        <a href="mailto:Customer.care@astrofume.com" class="card-link">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=care@astrofume.com" target="_blank" class="card-link">
           <i class="fas fa-envelope"></i>
           <p>Email</p>
         </a>
